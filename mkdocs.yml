@@ -31,7 +31,7 @@ plugins:
   - roamlinks
   - mermaid2
   - tags
-    tag_page_md_path: Meta/Publish/tags.md
+    tag_page_md_path: 'Meta/Publish/tags.md'
 
 # Meta information
 repo_url: https://github.com/Tomodachi94/the-penguin-book
