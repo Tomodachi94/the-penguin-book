@@ -40,6 +40,5 @@ markdown_extensions:
 
 plugins:
   - search
-  - roamlinksplugins
   - search
   - mermaid2
