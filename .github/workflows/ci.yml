@@ -16,5 +16,6 @@ jobs:
       - run: pip install mkdocs-mermaid2-plugin
       - run: pip install git+https://github.com/Nick-SHM/mkdocs-tags.git
       - run: mv ./LICENSE.md ./docs/license.md
+      - run: mv ./docs/Meta/Publish/index.md ./docs/index.md
       - run: touch ./docs/tags.md
       - run: mkdocs gh-deploy --force
