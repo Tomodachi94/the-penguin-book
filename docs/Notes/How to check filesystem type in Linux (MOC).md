@@ -1,0 +1,15 @@
+---
+tags:
+  - "Meta/NoteType/MapOfContent"
+  - "Computers/OperatingSystems/GNULinux/CommandLine"
+  - "Computers/OperatingSystems/GNULinux/Topics/DiskManagement"
+  - "Computers/OperatingSystems/GNULinux"
+---
+- Command line solutions
+	- ...[[How to check filesystem type using `df`|using `df`]]
+	- ...[[How to check filesystem type using `fsck`|using `fsck`]]
+	- ...[[How to check filesystem type using `lsblk`|using `lsblk`]]
+	- ...[[How to check filesystem type using `mount`|using `mount`]]
+	- ...[[How to check filesystem type using `blkid`|using `blkid`]]
+	- ...[[How to check filesystem type using `file`|using `file`]]
+	- ...[[How to check filesystem type using `_etc_fstab`|using `/etc/fstab`]]
