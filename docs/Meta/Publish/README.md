@@ -1,0 +1,1 @@
+This folder is a place for files to be moved from during the build of the website, mainly the index.
