@@ -9,18 +9,6 @@ theme:
       scheme: default
       primary: black
       accent: yellow
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
-
-    # Dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: white
-      accent: yellow
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
 
 # Extensions
 markdown_extensions:
@@ -42,21 +30,3 @@ plugins:
   - search
   - search
   - mermaid2
-# Start copied content from https://github.com/fralau/mkdocs-mermaid2-plugin#basic-configuration
-  # https://facelessuser.github.io/pymdown-extensions/extensions/superfences/
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:mermaid2.fence_mermaid
-
-plugins:
-  - mermaid2:
-      arguments:
-        # test if its __palette_1 (dark) or __palette_2 (light)
-        # for mkdocs-material >=8.0.0
-        theme: |
-          ^(JSON.parse(__md_get("__palette").index == 1)) ? 'dark' : 'light'
-#       for mkdocs-material <8.0.0
-#         ^(JSON.parse(window.localStorage.getItem(__prefix('__palette'))).index == 1) ? 'dark' : 'light
-# End copied content from https://github.com/fralau/mkdocs-mermaid2-plugin#basic-configuration
